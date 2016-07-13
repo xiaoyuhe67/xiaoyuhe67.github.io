@@ -20,7 +20,8 @@ jQuery.fn.loadRepositories = function(username) {
                     list.append('<dd>' + this.description +'</dd>');
                 }
             }
-        });      
+        });
+        alert(target);
       });
 
     function sortByName(repos) {
