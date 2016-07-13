@@ -22,6 +22,7 @@ jQuery.fn.loadRepositories = function(username) {
             }
         });
         alert(target);
+        alert(list);
       });
 
     function sortByName(repos) {
