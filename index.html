@@ -6,17 +6,23 @@
 <title>Your Page Title</title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="scripts/listrepos.js"></script>
+ <script src="scripts/listrepos.js"></script>
+<script>
+    $(function() {
+                $("#my-github-projects").loadRepositories("xiaoyuhe67");
+    });
+</script>
+
 </head>
 <script>
 </script>
 <body>
 hello
-<div id="xiaoyuhegithub" name="xiaoyuhegithub">
-    </div>
+<div id="my-github-projects"></div>
+    <script src="scripts/listrepos.js"></script>
 <script>
     $(function() {
-                $("#xiaoyuhegithub").loadRepositories("xiaoyuhe67");
+                $("#my-github-projects").loadRepositories("xiaoyuhe67");
     });
 </script>
 </body>
